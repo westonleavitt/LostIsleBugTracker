@@ -1,6 +1,6 @@
 name: 🐞 Bug Report
 description: File a bug report
-title: "<title>"
+title: "[BUG] <title>"
 labels: ["bug"]
 assignees:
   - octocat
@@ -21,7 +21,7 @@ body:
     id: what-happened
     attributes:
       label: What happened?
-      description: Please describe the issue.
+      description: Please describe the issue. Also please describe what you expected to happen.
       placeholder: Your description goes here...
     validations:
       required: true
@@ -35,7 +35,7 @@ body:
   - type: textarea
     attributes:
       label: Steps To Reproduce
-      description: Steps to reproduce the behavior.
+      description: Steps to reproduce the bug.
       placeholder: |
         1. First I did this...
         2. Then this happened...
@@ -50,6 +50,6 @@ body:
       placeholder: |
         Your screenshot or screen capture here...
 
-        We recommend using [Streamable](https://streamable.com/) to upload your video, but you can also do an unlisted Youtube video.
+        We recommend using streamble.com to upload your video, but you can also do an unlisted Youtube video.
     validations:
       required: false
