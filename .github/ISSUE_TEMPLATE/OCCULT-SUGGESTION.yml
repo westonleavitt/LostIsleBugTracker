@@ -1,6 +1,5 @@
 name: 💡 Suggestion
 description: Give us your idea!
-title: "Your title here..."
 labels: ["Suggestion"]
 assignees:
   - octocat
