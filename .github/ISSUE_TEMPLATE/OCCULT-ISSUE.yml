@@ -1,6 +1,6 @@
 name: 🐞 Bug Report
 description: File a bug report
-title: ""
+title: "[Bug] Your title here..."
 labels: ["bug"]
 assignees:
   - octocat
