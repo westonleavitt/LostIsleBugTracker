@@ -1,0 +1,37 @@
+name: 💡 Suggestion
+description: Give us your idea!
+title: "Your title here..."
+labels: ["Suggestion"]
+assignees:
+  - octocat
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Thanks for taking the time to tell us your idea!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: Please paste your Discord username and ID in here in case we need to reach out for more info.
+      placeholder: name#0000
+    validations:
+      required: false
+  - type: textarea
+    id: idea
+    attributes:
+      label: What's your idea?
+      description: Please be very detailed about your idea for the game.
+      placeholder: Your idea goes here...
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: (Optional) Screen Recording or Screenshot
+      description: Please paste a link to a screen recording or a screenshot to help visualize the your idea.
+      placeholder: |
+        Your screenshot or screen capture here...
+
+        We recommend using streamble.com to upload your video, but you can also do an unlisted Youtube video.
+    validations:
+      required: false
