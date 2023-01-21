@@ -1,7 +1,7 @@
-name: Test Bug Report
+name: Bug Report
 description: File a bug report
-title: "[Bug]: "
-labels: ["bug", "triage"]
+title: "Your title here"
+labels: ["bug"]
 assignees:
   - octocat
 body:
@@ -13,50 +13,34 @@ body:
     id: contact
     attributes:
       label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      description: Please paste your discord username and ID in here in case we need to reach out for more info.
+      placeholder: name#0000
     validations:
       required: false
   - type: textarea
     id: what-happened
     attributes:
       label: What happened?
-      description: Also tell us, what did you expect to happen?
+      description: Please describe the issue.
       placeholder: Tell us what you see!
-      value: "A bug happened!"
+      value: "Your description here..."
     validations:
       required: true
-  - type: dropdown
-    id: version
-    attributes:
-      label: Version
-      description: What version of our software are you running?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
-    validations:
-      required: true
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
-  - type: textarea
-    id: logs
-    attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
   - type: checkboxes
     id: terms
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      label: Did your game crash?
       options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+        - label: Check this box if your game crashed
+          required: false
+  - type: textarea
+    attributes:
+      label: Steps To Reproduce
+      description: Steps to reproduce the behavior.
+      placeholder: |
+        1. First I did this...
+        2. Then this happened...
+        3. Then...
+        4. See error...
+    validations:
+      required: true
