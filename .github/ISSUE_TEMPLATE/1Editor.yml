@@ -17,6 +17,11 @@ body:
     validations:
       required: false
 
+  - type: markdown
+    attributes:
+      value: |
+        ---
+
   - type: textarea
     id: EditorReview
     attributes:
