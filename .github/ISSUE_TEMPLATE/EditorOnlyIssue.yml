@@ -1,0 +1,23 @@
+name: Editor Only Task / Bug
+description: For tasks that only require editor review (Balancing, Material, Collider, Validation, Prebaking, etc)
+labels: []
+body:
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "New In-Editor Issue"
+      description: "Describe what’s wrong. Screenshots, logs, etc."
+      placeholder: "e.g. Here’s what I see when…"
+    validations:
+      required: false
+
+  - type: textarea
+    id: EditorReview
+    attributes:
+      label: Editor Review (Complete After Assignment)
+      description: Assignee must complete the following before elevating task:
+      value: |
+        - [ ] Has task been reviewed for 100% Completion.
+        - [ ] All files modularly committed to Main/Beta Branch, with references to this ticket
+        
