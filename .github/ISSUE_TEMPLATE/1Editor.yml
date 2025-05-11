@@ -1,5 +1,5 @@
-name: Self Review Only
-description: For tasks that only require self review (Balancing, Material, Collider, Validation, Prebaking, etc)
+name: Requires Self Review Only
+description:Balancing, Material, Collider, Validation, Prebaking, etc
 labels: []
 body:
 
