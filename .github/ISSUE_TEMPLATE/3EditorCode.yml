@@ -1,5 +1,5 @@
 name: Code Review Only
-description: Such As (Logging Issues, Server/Client Warnings, RPC Issues)
+description: Logging Issues, Server/Client Warnings, RPC Issues, etc
 labels: []
 body:
 
