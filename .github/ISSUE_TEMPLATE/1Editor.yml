@@ -8,7 +8,6 @@ body:
       label: "Issue Details"
       description: "Describe what’s wrong. Screenshots, logs, etc."
       placeholder: "e.g. Here’s what I see when…"
-      render: bash
     validations:
       required: false
 
