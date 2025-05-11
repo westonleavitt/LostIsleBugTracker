@@ -2,15 +2,11 @@ name: In-Editor Issue
 description: For things that don't need to be in-game tested (UI, Collider, Prebaker, Validation, Materials, LOD, etc)
 labels: ["bug"]
 body:
-  - type: markdown
-    attributes:
-      value: |
-        ## Thanks for taking the time to tell us your idea!
   - type: textarea
-    id: feedback
+    id: Description
     attributes:
-      label: Feedback
-      description: Please describe what feedback you have here.
-      placeholder: Please include screenshots, Player/Server Logs, etc
+      label: Description
+      description: Describe the Issue. Include screenshots, Player/Server Logs, etc
+      placeholder: Enter Text 
     validations:
       required: false
