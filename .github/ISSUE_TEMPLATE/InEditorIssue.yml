@@ -5,8 +5,8 @@ body:
   - type: textarea
     id: Description
     attributes:
-      label: Description
-      description: Describe the Issue. Include screenshots, Player/Server Logs, etc
-      placeholder: Enter Text 
+      label: New In-Editor Issue
+      description: For things that don't need to be in-game tested (UI, Collider, Prebaker, Validation, Materials, LOD, etc)
+      placeholder: Describe the Issue. Include screenshots, Player/Server Logs, etc
     validations:
       required: false
