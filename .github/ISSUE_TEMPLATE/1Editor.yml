@@ -9,7 +9,7 @@ body:
       description: "Describe what’s wrong. Screenshots, logs, etc."
       placeholder: "e.g. Here’s what I see when…"
     validations:
-      required: true
+      required: false
 
   - type: markdown
     attributes:
