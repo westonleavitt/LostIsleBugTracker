@@ -20,6 +20,8 @@ body:
       value: |
         - [ ] Has task been reviewed for 100% Completion.
         - [ ] All files modularly committed to Main/Beta Branch, with references to this ticket
+        
+        _Set to "Needs Review" upon completion of above_
 
   - type: textarea
     id: GameplayReview
@@ -40,4 +42,6 @@ body:
         - [ ] Code - Readability, Regions, Comments, Format
         - [ ] AI Check - Run code through AI (ask are there any critical issues in this code or similar) and review/consider findings.
         - [ ] Tested - Tested in Server / Client using Network Tools / Local Server
+
+        _Set to "Needs Review" upon completion of above_
         
