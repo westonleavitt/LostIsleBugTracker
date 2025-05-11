@@ -6,3 +6,11 @@ body:
     attributes:
       value: |
         ## Thanks for taking the time to tell us your idea!
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: Please describe what feedback you have here.
+      placeholder: Please include screenshots, Player/Server Logs, etc
+    validations:
+      required: false
