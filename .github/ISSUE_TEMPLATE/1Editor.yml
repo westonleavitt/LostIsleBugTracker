@@ -18,6 +18,7 @@ body:
       label: Self Review (Complete After Assignment)
       description: Assignee must complete the following before elevating task
       value: |
+        - ---
         - [ ] Has task been reviewed for 100% Completion.
         - [ ] All files modularly committed to Main/Beta Branch, with references to this ticket
 
