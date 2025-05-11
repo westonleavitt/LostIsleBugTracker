@@ -1,4 +1,4 @@
-name: 📋 Triage Only
+name: 📋 Triage
 description: For tasks that don't have enough information to assign yet
 labels: ["Triage"]
 body:
