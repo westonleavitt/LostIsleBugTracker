@@ -1,0 +1,12 @@
+name: New Triage Issue
+description: For tasks that don't have enough information to assign yet
+labels: ["Triage"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: "Triage Description"
+      description: "Describe what’s wrong. Screenshots, logs, etc."
+      placeholder: "Enter Text"
+    validations:
+      required: false
