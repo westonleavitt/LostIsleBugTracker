@@ -15,7 +15,7 @@ body:
   - type: textarea
     id: EditorReview
     attributes:
-      label: <small>Self Review (Complete After Assignment)</small>
+      label: "<small>Self Review (Complete After Assignment)</small>"
       description: Assignee must complete the following before elevating task
       value: |
         - [ ] Has task been reviewed for 100% Completion.
