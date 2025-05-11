@@ -1,0 +1,3 @@
+name: In-Editor Issue
+description: For things that don't need to be in-game tested: UI, Collider, Prebaker, Validation, Materials, LOD, etc.
+labels: ["bug"]
