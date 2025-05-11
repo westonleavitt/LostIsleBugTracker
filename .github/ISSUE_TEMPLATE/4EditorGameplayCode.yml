@@ -12,6 +12,12 @@ body:
     validations:
       required: false
 
+  - type: markdown
+    attributes:
+      value: |
+      
+        ---
+
   - type: textarea
     id: EditorReview
     attributes:
@@ -23,6 +29,12 @@ body:
         
         _Set to "Needs Review" upon completion of above_
 
+  - type: markdown
+    attributes:
+      value: |
+      
+        ---
+
   - type: textarea
     id: GameplayReview
     attributes:
@@ -31,6 +43,12 @@ body:
       value: |
         - [ ] Implementation Fulfills Requirements / Feels Good
         - [ ] No Graphic / Performance related issues
+
+  - type: markdown
+    attributes:
+      value: |
+      
+        ---
 
   - type: textarea
     id: CodeReview
