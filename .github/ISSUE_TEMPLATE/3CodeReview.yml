@@ -1,0 +1,43 @@
+name: Editor/Gameplay/CodeReview Task
+description: For tasks that require all three review Types
+labels: []
+body:
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "New In-Editor Issue"
+      description: "Describe what’s wrong. Screenshots, logs, etc."
+      placeholder: "e.g. Here’s what I see when…"
+    validations:
+      required: false
+
+  - type: textarea
+    id: EditorReview
+    attributes:
+      label: 1. Editor Review (Complete by Assignee)
+      description: Complete the following before elevating
+      value: |
+        - [ ] Has task been reviewed for 100% Completion.
+        - [ ] All files modularly committed to Main/Beta Branch, with references to this ticket
+
+  - type: textarea
+    id: GameplayReview
+    attributes:
+      label: 2. Gameplay Review (Complete by Jake/Weston)
+      description: Complete the following before elevating
+      value: |
+        - [ ] Implementation Fulfills Requirements / Feels Good
+        - [ ] No Graphic / Performance related issues
+
+  - type: textarea
+    id: CodeReview
+    attributes:
+      label: 3. Code Review (Dev Crosschecked)
+      description: Complete the following before elevating
+      value: |
+        - [ ] Network - Review Logic, Usability, and Modularity. Is there anything glaring?
+        - [ ] Code - Readability, Regions, Comments, Format
+        - [ ] AI Check - Run code through AI (ask are there any critical issues in this code or similar) and review/consider findings.
+        - [ ] Tested - Tested in Server / Client using Network Tools / Local Server
+        
