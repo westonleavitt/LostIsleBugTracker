@@ -1,4 +1,4 @@
-name: Editor Only
+name: Editor Only Task
 description: For tasks that only require editor review (Balancing, Material, Collider, Validation, Prebaking, etc)
 labels: []
 body:
