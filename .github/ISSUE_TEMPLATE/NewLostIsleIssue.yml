@@ -35,7 +35,7 @@ body:
       required: false
 
   - type: textarea
-    id: Completion Checklist
+    id: Checklist
     attributes: Edit this after task has been assigned
       label: Completion Checklist
       description: 
