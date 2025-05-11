@@ -1,5 +1,5 @@
-name: Gameplay Only Task
-description: Such As (Gameplay, Animation, VFX, etc)
+name: Requires Gameplay Review Only
+description: Gameplay, Animation, VFX, Timing Polish, etc
 labels: []
 body:
 
