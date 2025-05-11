@@ -33,7 +33,7 @@ body:
         - [ ] Has task been reviewed for 100% Completion.
         - [ ] All files modularly committed to Main/Beta Branch, with references to this ticket
 
-        _Close this ticket upon completion of above_
+        _Set to "Needs Review" upon completion of above_
 
         ---
         
