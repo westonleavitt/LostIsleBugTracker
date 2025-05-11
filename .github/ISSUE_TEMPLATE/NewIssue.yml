@@ -1,5 +1,5 @@
-name: Editor Only Issue
-description: For things that don't need to be in-game tested (UI, Colliders, Prebaker, Validation, Materials, LOD, etc)
+name: Lost Isle Issue
+description: Use this template for all Lost Isle Issues
 labels: []
 body:
   - type: dropdown
