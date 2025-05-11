@@ -11,6 +11,16 @@ body:
     validations:
       required: false
 
+  - type: textarea
+    id: description
+    attributes:
+      label: "Issue Details"
+      description: "Describe what’s wrong. Screenshots, logs, etc."
+      placeholder: "e.g. Here’s what I see when…"
+    validations:
+      required: false
+    render: bash
+
   - type: markdown
     attributes:
       value: |
