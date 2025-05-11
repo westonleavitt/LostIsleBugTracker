@@ -1,21 +1,24 @@
 name: Editor Only Issue
-description: For things that don't need to be in-game tested (UI, Collider, Prebaker, Validation, Materials, LOD, etc)
+description: For things that don't need to be in-game tested (UI, Colliders, Prebaker, Validation, Materials, LOD, etc)
 labels: ["bug"]
 body:
   - type: checkboxes
     id: IssueTagging
     attributes:
-    label: Required Review Type
-    options:
-        - label: 'In Editor Review'
-        - label: 'Gameplay Review'
-        - label: 'Code Review'
-    is_task: false
+      label: "Required Review Type"
+      description: "Which type(s) of review does this need?"
+      options:
+        - label: "In Editor Review"
+        - label: "Gameplay Review"
+        - label: "Code Review"
+    validations:
+      required: true
+
   - type: textarea
     id: Description
     attributes:
-      label: New In-Editor Issue
-      description: For things that don't need to be in-game tested (UI, Collider, Prebaker, Validation, Materials, LOD, etc)
-      placeholder: Describe the Issue. Include screenshots, Player/Server Logs, etc
+      label: "New In-Editor Issue"
+      description: "Describe what’s wrong. Screenshots, logs, etc."
+      placeholder: "e.g. Here’s what I see when…"
     validations:
       required: false
