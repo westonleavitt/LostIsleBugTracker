@@ -1,4 +1,4 @@
-name: New Triage Issue
+name: New Triage
 description: For tasks that don't have enough information to assign yet
 labels: ["Triage"]
 body:
