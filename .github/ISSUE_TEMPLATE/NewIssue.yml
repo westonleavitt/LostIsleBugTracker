@@ -2,29 +2,29 @@ name: Editor Only Issue
 description: For things that don't need to be in-game tested (UI, Colliders, Prebaker, Validation, Materials, LOD, etc)
 labels: []
 body:
-- type: dropdown
-  id: Issue Type
-  attributes:
-    label: What type of issue is this?
-    options:
-      - Bug
-      - Task
-    default: 0
-  validations:
-    required: true
+  - type: dropdown
+    id: issue_type
+    attributes:
+      label: "What type of issue is this?"
+      options:
+        - "Bug"
+        - "Task"
+      default: 0
+    validations:
+      required: true
 
   - type: checkboxes
-    id: CriticalImportance
+    id: critical_importance
     attributes:
       label: "Critical Importance"
-      description: "Is this Task/Bug of critical importance"
+      description: "Is this Task/Bug of critical importance?"
       options:
         - label: "Critical"
     validations:
       required: true
 
   - type: checkboxes
-    id: IssueTagging
+    id: issue_tagging
     attributes:
       label: "Required Review Type"
       description: "Which type(s) of review does this need?"
@@ -36,7 +36,7 @@ body:
       required: true
 
   - type: textarea
-    id: Description
+    id: description
     attributes:
       label: "New In-Editor Issue"
       description: "Describe what’s wrong. Screenshots, logs, etc."
