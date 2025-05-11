@@ -1,12 +1,12 @@
-name: Editor / Gameplay Task
-description: For tasks that require gameplay review (Gameplay, Animation, etc)
+name: Gameplay Only Task
+description: Such As (Gameplay, Animation, VFX, etc)
 labels: []
 body:
 
   - type: textarea
     id: description
     attributes:
-      label: "New In-Editor Issue"
+      label: "Issue Details"
       description: "Describe what’s wrong. Screenshots, logs, etc."
       placeholder: "e.g. Here’s what I see when…"
     validations:
