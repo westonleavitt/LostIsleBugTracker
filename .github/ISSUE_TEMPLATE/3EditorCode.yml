@@ -1,4 +1,4 @@
-name: Code Review Only
+name: Requires Code Review Only
 description: Logging Issues, Server/Client Warnings, RPC Issues, etc
 labels: []
 body:
