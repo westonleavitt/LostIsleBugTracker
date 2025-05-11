@@ -15,7 +15,9 @@ body:
   - type: markdown
     attributes:
       value: |
-      
+
+        ---
+        DO NOTHING BELOW THIS LINE
         ---
 
   - type: textarea
@@ -29,11 +31,6 @@ body:
 
         _Set to "Needs Review" upon completion of above_
 
-  - type: markdown
-    attributes:
-      value: |
-      
-        ---
 
   - type: textarea
     id: CodeReview
