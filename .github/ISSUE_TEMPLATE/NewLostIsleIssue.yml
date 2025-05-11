@@ -34,7 +34,7 @@ body:
     validations:
       required: false
 
-   - type: textarea
+  - type: textarea
     id: Completion
     attributes:
       label: Mark Off Checklist
