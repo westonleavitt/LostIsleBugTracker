@@ -1,6 +1,6 @@
 name: 🖥🕹 Code & Gameplay
 description: Everything Else, New functionalities, etc
-labels: []
+labels: ["Gameplay","Code"]
 body:
 
   - type: textarea
