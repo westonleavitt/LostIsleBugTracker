@@ -29,6 +29,12 @@ body:
 
         _Set to "Needs Review" upon completion of above_
 
+  - type: markdown
+    attributes:
+      value: |
+      
+        ---
+
   - type: textarea
     id: GameplayReview
     attributes:
