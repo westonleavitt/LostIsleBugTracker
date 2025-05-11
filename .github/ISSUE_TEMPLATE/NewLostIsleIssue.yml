@@ -33,3 +33,13 @@ body:
       placeholder: "e.g. Here’s what I see when…"
     validations:
       required: false
+
+   - type: textarea
+    id: Completion
+    attributes:
+      label: Mark Off Checklist
+      description: 
+      value: |
+        - [ ] Editor Review Complete (if Needed)
+        - [ ] Gameplaye Review Complete (if Needed)
+        - [ ] Code Review Complete (if Needed)
