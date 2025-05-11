@@ -14,16 +14,6 @@ body:
       required: true
 
   - type: checkboxes
-    id: critical_importance
-    attributes:
-      label: "Critical Importance"
-      description: "Is this Task/Bug of critical importance?"
-      options:
-        - label: "Critical"
-    validations:
-      required: true
-
-  - type: checkboxes
     id: issue_tagging
     attributes:
       label: "Required Review Type"
