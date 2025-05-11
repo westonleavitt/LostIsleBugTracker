@@ -37,7 +37,7 @@ body:
   - type: textarea
     id: CompletionChecklist
     attributes:
-      label: Completion Checklist
+      label: Completion Checklist (Only Edit After Task Complete)
       description: Edit this after task has been assigned
       value: |
         - [ ] Editor Review Complete (if Needed)
