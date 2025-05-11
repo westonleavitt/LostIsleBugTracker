@@ -1,12 +1,12 @@
-name: Editor/Gameplay/CodeReview Task
-description: For tasks that require all three review Types
+name: Requires Gameplay & Code Review
+description: Everything Else, New functionalities, etc
 labels: []
 body:
 
   - type: textarea
     id: description
     attributes:
-      label: "New In-Editor Issue"
+      label: "Issue Details"
       description: "Describe what’s wrong. Screenshots, logs, etc."
       placeholder: "e.g. Here’s what I see when…"
     validations:
