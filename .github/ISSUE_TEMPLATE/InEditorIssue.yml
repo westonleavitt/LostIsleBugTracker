@@ -2,3 +2,7 @@ name: In-Editor Issue
 description: For things that don't need to be in-game tested (UI, Collider, Prebaker, Validation, Materials, LOD, etc)
 labels: ["bug"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Thanks for taking the time to tell us your idea!
