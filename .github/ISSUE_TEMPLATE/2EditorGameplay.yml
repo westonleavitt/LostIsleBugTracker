@@ -1,6 +1,6 @@
 name: 🕹 Gameplay Only
 description: Gameplay, Animation, VFX, Timing Polish, etc
-labels: []
+labels: ["Gameplay"]
 body:
 
   - type: textarea
