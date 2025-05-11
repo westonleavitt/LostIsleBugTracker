@@ -11,16 +11,6 @@ body:
     validations:
       required: false
 
-  - type: textarea
-    id: description2
-    attributes:
-      label: "Issue Details"
-      description: "Describe what’s wrong. Screenshots, logs, etc."
-      placeholder: "e.g. Here’s what I see when…"
-      render:
-    validations:
-      required: false
-
   - type: markdown
     attributes:
       value: |
