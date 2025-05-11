@@ -35,10 +35,10 @@ body:
       required: false
 
   - type: textarea
-    id: Checklist
-    attributes: Edit this after task has been assigned
+    id: CompletionChecklist
+    attributes:
       label: Completion Checklist
-      description: 
+      description: Edit this after task has been assigned
       value: |
         - [ ] Editor Review Complete (if Needed)
         - [ ] Gameplaye Review Complete (if Needed)
