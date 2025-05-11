@@ -21,6 +21,8 @@ body:
         - [ ] Has task been reviewed for 100% Completion.
         - [ ] All files modularly committed to Main/Beta Branch, with references to this ticket
 
+        _Set to "Needs Review" upon completion of above_
+
   - type: textarea
     id: GameplayReview
     attributes:
@@ -29,4 +31,6 @@ body:
       value: |
         - [ ] Implementation Fulfills Requirements / Feels Good
         - [ ] No Graphic / Performance related issues
+
+        _Close ticket upon completion of above_
         
