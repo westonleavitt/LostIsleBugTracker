@@ -35,9 +35,9 @@ body:
       required: false
 
   - type: textarea
-    id: Completion
-    attributes:
-      label: Mark Off Checklist
+    id: Completion Checklist
+    attributes: Edit this after task has been assigned
+      label: Completion Checklist
       description: 
       value: |
         - [ ] Editor Review Complete (if Needed)
