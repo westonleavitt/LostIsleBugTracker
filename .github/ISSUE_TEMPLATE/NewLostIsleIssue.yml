@@ -1,5 +1,5 @@
 name: New Task / Bug
-description: Use this template for all Lost Isle Issues
+description: For tasks that are ready to be assigned and complete
 labels: []
 body:
   - type: dropdown
