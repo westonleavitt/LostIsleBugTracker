@@ -19,9 +19,9 @@ body:
       label: "Required Review Type"
       description: "Which type(s) of review does this need?"
       options:
-        - label: "In Editor Review (UI, Collider, Prebake, Materials, etc)"
-        - label: "Gameplay Review (Game Feel, Timing, Polish, etc)"
-        - label: "Code Review (Networked Components, New Functionality, tec)"
+        - label: "Requires Editor Review (UI, Collider, Prebake, Materials, etc)"
+        - label: "Requires Gameplay Review (Game Feel, Timing, Polish, etc)"
+        - label: "Requires Code Review (Networked Components, New Functionality, tec)"
     validations:
       required: true
 
