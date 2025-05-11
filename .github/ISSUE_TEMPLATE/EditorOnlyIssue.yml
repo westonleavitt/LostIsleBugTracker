@@ -3,14 +3,14 @@ description: For things that don't need to be in-game tested (UI, Collider, Preb
 labels: ["bug"]
 body:
   - type: checkboxes
-     id: IssueTagging
-     attributes:
-     label: Required Review Type
-     options:
+    id: IssueTagging
+    attributes:
+    label: Required Review Type
+    options:
         - label: 'In Editor Review'
         - label: 'Gameplay Review'
         - label: 'Code Review'
-     is_task: false
+    is_task: false
   - type: textarea
     id: Description
     attributes:
