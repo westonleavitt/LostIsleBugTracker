@@ -3,6 +3,11 @@ description: Balancing, Material, Collider, Validation, Prebaking, etc
 labels: []
 body:
 
+  - type: markdown
+    attributes:
+      value: |
+        ---
+
   - type: textarea
     id: description
     attributes:
