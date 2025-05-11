@@ -12,7 +12,7 @@ body:
       required: false
 
   - type: textarea
-    id: description
+    id: description2
     attributes:
       label: "Issue Details"
       description: "Describe what’s wrong. Screenshots, logs, etc."
