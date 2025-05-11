@@ -12,6 +12,12 @@ body:
     validations:
       required: false
 
+  - type: markdown
+    attributes:
+      value: |
+      
+        ---
+
   - type: textarea
     id: EditorReview
     attributes:
@@ -22,6 +28,12 @@ body:
         - [ ] All files modularly committed to Main/Beta Branch, with references to this ticket
 
         _Set to "Needs Review" upon completion of above_
+
+  - type: markdown
+    attributes:
+      value: |
+      
+        ---
 
   - type: textarea
     id: CodeReview
